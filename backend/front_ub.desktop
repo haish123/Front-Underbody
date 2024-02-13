@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=TOYOTA AI
+Exec= sh /home/richo/AI/ai-ub-front-p2/backend/Front-UB_AI_Visual_Inspection.sh
+Icon=/home/richo/Documents/logo.png
+Categories=Development;IDE;
+Terminal=true
+StartupNotify=true
+Name[en_GB]=front_ub.desktop

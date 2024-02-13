@@ -1,0 +1,43 @@
+{
+    "cameras" : {
+        "1": "/dev/v4l/by-id/usb-046d_HD_Pro_Webcam_C920_C6AB107F-video-index0",
+        "2": "/dev/v4l/by-id/usb-046d_HD_Pro_Webcam_C920_CACD6D6F-video-index0",
+        "3": "/dev/v4l/by-id/usb-046d_HD_Pro_Webcam_C920_AC3D107F-video-index0",
+        "4": "/dev/v4l/by-id/usb-046d_HD_Pro_Webcam_C920_BBD75D6F-video-index0",
+        "5": "/dev/v4l/by-id/usb-046d_HD_Pro_Webcam_C920_4A25307F-video-index0",
+        "6": "/dev/v4l/by-id/usb-046d_HD_Pro_Webcam_C920_7474397F-video-index0",
+        "7": "/dev/v4l/by-id/usb-046d_HD_Pro_Webcam_C920_F02D107F-video-index0",
+        "8": "/dev/v4l/by-id/usb-046d_HD_Pro_Webcam_C920_D6A8207F-video-index0"
+    },
+    "object_detection_model" : {
+        "model" : "./ai_model/31Jan2024.pt",
+        "conf" : 0.5,
+        "img_size" : 800
+    },
+    "program" :{
+        "inference_mode" : true,
+        "save_results" : true,
+        "cv_backend" : "default",
+        "release_cam" : true,
+        "multithreads" : {
+            "status" : true,
+            "max_threads" : 8
+        }
+    },
+    "vehicle_name" : {
+        "40": "Calya",
+        "41": "Calya",
+
+        "20": "Veloz",
+        "21": "Veloz",
+        "22": "Veloz",
+
+        "05": "Yaris",
+        "06": "Yaris",
+        "07": "Yaris",
+
+        "90": "D03B",
+        "91": "D03B"
+      }
+  }
+  
